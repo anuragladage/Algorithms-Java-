@@ -1,0 +1,36 @@
+public class Link
+{
+
+	public String bookname;
+	public String millionssold;
+
+	public Link next;
+
+	public static void main(String[] args)
+	{
+
+	}
+
+	public Link(String bookname, int millionssold)
+	{
+		this.bookname = bookname;
+		this. millionssold = millionssold;
+	}
+
+	public void display()
+	{
+		System.out.println(bookname + " : " + millionssold);
+	}
+
+	public String toString()
+	{
+		return bookname;
+	}
+
+}
+
+
+class LinkedList
+{
+
+}
